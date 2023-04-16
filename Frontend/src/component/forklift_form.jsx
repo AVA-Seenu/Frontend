@@ -164,7 +164,7 @@ function ForkliftForm() {
             if(result.rowsAffected[0] == 1)
             {
                 window.alert("Trailer Details updated");
-                navigation('/grid');
+                navigation('/');
             }
         }
     }
