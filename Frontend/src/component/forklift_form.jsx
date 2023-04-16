@@ -154,7 +154,7 @@ function ForkliftForm() {
             if(result.rowsAffected[0] == 1)
             {
                 window.alert("Inserted Sucessfully");
-                navigation('/grid');
+                navigation('/');
             }
         }
         else if(params.id != undefined && validation())
